@@ -1,0 +1,5 @@
+from libs.appointment.database.book_appointment_db import book_appointment_db_factory
+from libs.appointment.database.get_all_booked_slots_db import get_all_booked_slots_db_factory
+
+get_all_booked_slots_db = get_all_booked_slots_db_factory()
+book_appointment_db = book_appointment_db_factory()
